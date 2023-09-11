@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+.billboard{
+    height:600px;
+    background-image: url(slike/respons-header.jpg);
+    background-size: cover;
+}
+.logo{
+    width:100px;
+    height:70px;
+    margin-left:20px;
+    margin-top:20px;
+}
+.wrapper{
+    position:relative;
+}
+.header-nav {
+    position:absolute;
+    right:0;
+}
+.header-nav li{
+    display:inline;
+    background-color: rgb(81, 168, 226);
+    border-radius: 20%;
+    padding:5px;
+}
+.header-nav li a{
+    text-decoration:none;
+    color:black;
+}
+.caption h1{
+    margin-left:20px;
+    margin-top:110px;
+    font-size: xxx-large;
+
+}
+.caption p{
+    margin-left:20px;
+    
+}
+.caption hr{
+    background-color:black;
+    width:300px;
+    height:3px;
+    margin-left:30px;
+}
+.clearfix{
+    display:flex;
+}
+.clearfix li{
+    display:inline;
+    text-align:center;
+    border:1px solid gainsboro;
+    background-color: rgba(111, 173, 141, 0.479);
+    margin-left:3px;
+}
+.sivi-box div{
+    height: 200px;
+    max-width: 200px;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mountain-img{
+    height:600px;
+    background-image: url(slike/mountain-img.jpg);
+    background-size:cover;
+}
+.title{
+    text-align:center;
+}
+.title h3{
+    font-size: small;
+    opacity:70%;
+}
+.separator{
+    width:200px;
+}
+.sivi-box h4{
+    color:white;
+    background-color: black;
+    margin-top:0;
+}
+
+@media only screen and (max-width:600px){
+    .logo{
+        position:relative;
+        left:calc(50% - 50px);
+        top:calc(50% - 35px);
+        
+    }
+    .wrapper{
+        background-color: rgba(111, 173, 141, 0.479);
+    }
+    .header-nav {
+      width:100%;
+      
+    }
+    .header-nav ul{
+        background-color: rgba(111, 173, 141, 0.479);
+        padding:0;
+        width:100%;
+        margin:0;
+        
+    }
+    .header-nav li{
+        display:block;
+        background-color: rgba(111, 173, 141, 0.479);
+        border-bottom:1px solid black;
+        border-radius: 0;
+        padding:3px;
+        text-align:center;
+        
+    }
+    .caption h1{
+        margin-left:0px;
+        margin-top:150px;
+        font-size: xxx-large;
+    
+    }
+    .caption p{
+        margin-left:0px;
+        
+    }
+    .caption hr{
+        background-color:black;
+        width:100px;
+        height:3px;
+        margin-left:130px;
+    }
+   .clearfix{
+    flex-wrap:wrap;
+   }
+   .clearfix li{
+    display:inline;
+    text-align:center;
+    border:1px solid gainsboro;
+    background-color: rgba(111, 173, 141, 0.479);
+    margin-left:3px;
+    width:40%;
+   }
+   .sivi-box div{
+    height: 200px;
+    max-width: 200px;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title{
+    background-color: white;
+}
+}
